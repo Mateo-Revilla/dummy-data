@@ -1,0 +1,6 @@
+*.class
+dataSettingsEducation.csv
+dummyDataEducation.csv
+readme.pages
+readme.rtf
+.DS_Store
