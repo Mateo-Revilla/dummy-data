@@ -68,14 +68,8 @@ class DummyDataAlgo {
 	static ArrayList<Integer> randomData(int rangeMin, int rangeMax) {
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		for (int i = 0; i < size; i++) {
-			if (rangeMax == 1) {
-				int number = random.nextInt(2);
-				al.add(number);
-			} else {
-				int number = random.nextInt(rangeMax) + rangeMin;
-				al.add(number);
-			}
-			
+			int number = random.nextInt(rangeMax-rangeMin+1) + rangeMin;
+			al.add(number);
 		}
 		return al;
 	}
