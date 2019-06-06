@@ -48,7 +48,7 @@ Ingresar al archivo csv dummyData para obtener los resultados del dummy data gen
 En este ejemplo produciremos una data set que represente diferentes factores que pueden llevar a la salida de un miembro de un banco y como resultado se demostrara si este usuario salió del banco.
 
 ### Data Settings
-
+```
 Salario,Edad,Tiempo_de_Membresia
 20
 3
@@ -59,9 +59,9 @@ Salario,Edad,Tiempo_de_Membresia
 0,0,0
 8,4,7
 0.40
-
+```
 ### Dummy Data
-
+```
 Salario,Edad,Tiempo_de_Membresia,Results
 23469,21,7,0
 5177,23,3,1
@@ -83,3 +83,4 @@ Salario,Edad,Tiempo_de_Membresia,Results
 6035,28,1,0
 29369,57,6,0
 26855,61,5,0
+```
